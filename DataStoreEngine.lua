@@ -663,12 +663,6 @@ local function run_processor()
 						result.success = ok
 
 						if not ok then
-							if type(err) == "string" and string.match(err, "4MB") then
-								--assume that the issue is unsolvable, dont retry it
-								
-								Log(1, `Could not process request: the data size exceeds 4MB`)
-								
-							end
 
 							result.errmsg = err
 							Log(1, `[DataStoreProcessor] Error with "{req_name}" on {key}: {err}`)
