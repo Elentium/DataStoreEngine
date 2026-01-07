@@ -1,4 +1,4 @@
-DataStoreEngine V1.10 [by iamnotultra3, a.k.a Elite]
+# [DEPRECATED] DataStoreEngine V1.10 [by iamnotultra3, a.k.a Elite]
 	
 	[MIT LICENSE]
 	
